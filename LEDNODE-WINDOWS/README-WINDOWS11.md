@@ -8,6 +8,24 @@ This folder is a Windows-focused duplicate of the LED MESSENGER NODE stack.
 - Local persistence: SQLite (`storage/sqlite`)
 - Photo processing + watch-folder output: Sharp + local filesystem
 
+## 0. Primary Production Topology
+
+The intended production path for this Windows build is:
+
+`iPhone Safari -> Windows 11 host -> local Node/API -> Resolume on the same Windows machine`
+
+That means:
+
+- the iPhone connects directly to the Windows host by LAN IP or Tailscale IP
+- the Windows machine runs both the web app and the API
+- SQLite stays local on the Windows machine
+- OSC is sent locally from Windows to Resolume
+- the watch folder is a local Windows folder
+
+This does not require `heights.clubkit.io` for normal operation.
+
+For agent-readable execution and validation steps, see `docs/CLAUDE_EXECUTION_PLAN.md`.
+
 ## 1. Supported Deployment Modes
 
 ### Mode A (Recommended for Resolume): Local laptop host
