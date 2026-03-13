@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 120" role="img" aria-labelledby="title">
+  <title id="title">LED MESSENGER</title>
+  <rect width="940" height="120" fill="none" />
+  <g fill="#a456ff">
+    <path d="M20 28h84v18H38v28h44v18H20z" />
+    <path d="M54 46h18v28H54z" />
+    <path d="M88 28h18v64H88z" />
+    <path d="M136 28h18v64h-18z" />
+    <path d="M170 28h18v64h-18z" />
+    <path d="M214 28h18l24 34 24-34h18v64h-18V56l-24 34-24-34v36h-18z" />
+    <path d="M336 28h66v16h-48v10h44v16h-44v22h-18z" />
+    <path d="M424 28h66v16h-48v10h44v16h-44v22h-18z" />
+    <path d="M514 28h64v16h-46v8h42v16h-42v8h46v16h-64z" />
+    <path d="M602 28h64v16h-46v8h42v16h-42v8h46v16h-64z" />
+    <path d="M690 28h64v16h-46v8h42v16h-42v8h46v16h-64z" />
+    <path d="M778 28h18l42 40V28h18v64h-18l-42-40v40h-18z" />
+    <path d="M876 28h64v16h-46v8h42v16h-42v8h46v16h-64z" />
+  </g>
+</svg>

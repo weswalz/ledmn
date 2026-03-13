@@ -1,0 +1,24 @@
+{
+  "name": "@lednode/web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --turbopack -H 0.0.0.0 -p 41237",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@lednode/shared": "1.0.0",
+    "next": "^15.5.12",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "typescript": "^5.7.3"
+  }
+}

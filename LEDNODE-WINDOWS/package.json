@@ -1,0 +1,21 @@
+{
+  "name": "ledmessengernode",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm:dev:shared\" \"npm:dev:web\" \"npm:dev:server\"",
+    "dev:shared": "npm run dev -w @lednode/shared",
+    "dev:web": "npm run dev -w @lednode/web",
+    "dev:server": "npm run dev -w @lednode/server",
+    "build": "npm run build -w @lednode/shared && npm run build -w @lednode/server && npm run build -w @lednode/web",
+    "test": "npm run test -w @lednode/shared && npm run test -w @lednode/server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "typescript": "^5.7.3"
+  }
+}

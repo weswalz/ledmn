@@ -1,0 +1,22 @@
+{
+  "pin": "1213",
+  "vjPin": "6969",
+  "oscHost": "127.0.0.1",
+  "oscPort": 2269,
+  "textLayer": 3,
+  "textStartSlot": 1,
+  "textClipCount": 3,
+  "textClearClip": 4,
+  "photoLayer": 4,
+  "photoStartSlot": 1,
+  "photoClipCount": 3,
+  "photoClearClip": 4,
+  "tileCanvasWidth": 3500,
+  "tileCanvasHeight": 1080,
+  "oscTextDelayMs": 200,
+  "autoClearAfterMs": 180000,
+  "queueOrdering": "newest",
+  "sessionDurationMinutes": 480,
+  "lineWrapChars": 16,
+  "maxUploadSizeBytes": 10485760
+}
