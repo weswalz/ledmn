@@ -1,6 +1,14 @@
 # LED MESSENGER NODE
 
-Local-first LED Messenger queue, OSC control, and Resolume watch-folder pipeline.
+A local-first text and photo queue for venue visual workflows. Staff use a mobile web interface; a local host manages the queue, sends OSC, and writes rendered photo tiles to a Resolume watch folder.
+
+This implementation uses Node.js/Express, Next.js, Socket.IO, SQLite, and Sharp. “Node” here refers to the runtime and local-host stack; this documentation does not describe a visual node-graph editor.
+
+## Public repository status
+
+This repository contains development source and setup documentation. It currently has no published GitHub releases. The setup steps below describe the public repository snapshot and do not establish production qualification or availability of a newer LED Messenger version.
+
+Before using it on a venue network, review authentication defaults, session configuration, host binding, firewall rules, upload handling, and watch-folder permissions for your environment. The quick-start PINs below are defaults, not private credentials.
 
 ## Repo Layout
 
